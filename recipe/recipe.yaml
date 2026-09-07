@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "10.2.0.post1"
+  version: "10.2.1"
 
 package:
   name: oxipng-pybind
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/o/oxipng-pybind/oxipng_pybind-${{ version }}.tar.gz
-  sha256: 15734a9aa03e89217c498b9e8bcd6415b2a6b7f0116122cedbece25eb8f64355
+  sha256: ab74cb98ae8897d8f5022fcd7be9a5a66d527abd9e73d753ccce7564489cdb97
 
 build:
-  number: 1
+  number: 0
   script:
     - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
     - ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
