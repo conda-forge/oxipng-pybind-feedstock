@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "10.2.1.post1"
+  version: "10.2.1.post2"
 
 package:
   name: oxipng-pybind
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/o/oxipng-pybind/oxipng_pybind-${{ version }}.tar.gz
-  sha256: 0948a74ce2d445bb20c88251bfb5133db854bf2168cb4dd8d9b3239714e65ba3
+  sha256: 4c9846893040a0f4ceec0d8988042febd3bad7c9ce68eb881bb24f99ab7124cc
 
 build:
   number: 0
